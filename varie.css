@@ -1,0 +1,28 @@
+/* Font per DSA */
+@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('https://cdn.jsdelivr.net/npm/open-dyslexic@1.0.3/otf/OpenDyslexic-Regular.otf');
+}
+
+/* Stili per alto contrasto */
+.high-contrast {
+    background-color: black !important;
+    color: yellow !important;
+}
+
+.high-contrast button {
+    background-color: yellow !important;
+    color: black !important;
+    border: 2px solid white !important;
+}
+
+/* Animazioni */
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
